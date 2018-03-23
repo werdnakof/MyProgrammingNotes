@@ -1,0 +1,49 @@
+Chain of Responsibility
+
+    Builds a chain of objects.
+    Request enters from one end,
+    and keeps going from object to object till it finds a suitable handler.
+
+Command
+
+    Encapsulate actions in objects.
+    The key idea behind this is to decouple client from receiver.
+
+Iterator
+
+    Presents a way to access the elements of an object
+    without exposing the underlying presentation.
+
+Mediator
+
+    Adds a 'central controller' (called mediator) to control the interaction
+    between two objects (called colleagues).
+    It helps reduce the coupling between the classes communicating with each other.
+    Because now they don't need to have the knowledge of each other's implementation.
+
+Memento
+
+    Provides the ability to restore an object to its previous state (undo via rollback).
+
+Observer
+
+    Defines a dependency between objects
+    so that whenever an object changes its state, all its dependents are notified.
+
+Visitor
+
+    Lets you add further operations to objects without having to modify them.
+
+Strategy
+
+    Strategy pattern allows you to switch the strategy based upon the situation.
+
+State
+
+    Lets you change the behavior of a class when the state changes.
+
+Template Method
+
+    Template method defines the skeleton of how a certain algorithm could be performed,
+    but defers the implementation of those steps to the children classes.
+

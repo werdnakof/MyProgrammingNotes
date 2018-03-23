@@ -72,24 +72,19 @@ public class Main {
         return getPackageClasses(PackageName, packagePath);
     }
 
-    static List<Class<?>> getPackageClasses(String clazzPackageName,
-                                            Path packagePath)
-            throws IOException {
+    static List<Class<?>> getPackageClasses(String clazzPackageName, Path packagePath) throws IOException {
 
         final List<Class<?>> packageClasses = new ArrayList<>();
 
         Files.walkFileTree(packagePath, new SimpleFileVisitor<Path>() {
             @Override
-            public FileVisitResult visitFile(Path file,
-                                             BasicFileAttributes attrs)
-                    throws IOException {
+            public FileVisitResult visitFile(Path file, BasicFileAttributes attrs) throws IOException {
 
                 String filename = file.getName(file.getNameCount()-1).toString();
 
                 if (filename.endsWith(".class")) {
 
-                    String className = clazzPackageName + "." +
-                            filename.replace(".class", "");
+                    String className = clazzPackageName + "." + filename.replace(".class", "");
 
                     try {
 

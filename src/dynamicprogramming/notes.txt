@@ -1,0 +1,14 @@
+DP:
+1. Sub-problems (simplify problem)
+2. Reusing the same function/computation
+3. memorization (avoid repeating same computation)
+4. Think "bottom-up" i.e. starting from the base/simplest case
+5. Order of solving sub-problems matter, it has a topological order of solving (think DAG)
+
+Note: sub-problems need to be acyclic i.e. not repeating the same computation
+
+5 "easy steps" to DP:
+1. define sub problems
+2. guess (part of solution) and then select the best
+3. relate sub problem solutions
+4. recurse & memorize or build DP table bottom up

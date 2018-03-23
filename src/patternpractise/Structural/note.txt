@@ -1,0 +1,40 @@
+Adapter
+
+    Adapter pattern lets you wrap an incompatible object in an adapter
+    to make it compatible with another class.
+
+Bridge
+
+    Bridge pattern is about preferring composition over inheritance.
+    Implementation details are pushed from a hierarchy to another object with a separate hierarchy.
+
+Composite
+
+    Composite pattern lets clients treat the individual objects in a uniform manner.
+
+
+Decorator
+
+    Decorator pattern lets you dynamically change the behavior of an object at run time
+    by wrapping them in an object of a decorator class.
+
+Facade
+
+    Facade pattern provides a simplified interface to a complex subsystem.
+
+Flyweight
+
+    It is used to minimize memory usage or computational expenses by sharing as much as possible with similar objects.
+
+    https://github.com/kamranahmedse/design-patterns-for-humans#-flyweight
+
+Proxy
+
+    Using the proxy pattern, a class represents the functionality of another class.
+
+    https://github.com/kamranahmedse/design-patterns-for-humans#-proxy
+
+
+
+
+

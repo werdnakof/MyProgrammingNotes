@@ -709,13 +709,59 @@ public class Questions {
         _findSpiral(arr, idx+1);
     }
 
-    public static void main(String[] args) {
-        findSpiral(new int[][]{
-                {1, 2, 3, 4},
-                {5, 6, 7, 8},
-                {9, 10, 11, 12}
-        });
+    static HashMap<Character, Character> map;
+    public static boolean isIsomorphic(String input1, String input2) {
+        map =  new HashMap<>();
+        int idx = 0;
+        char c1, c2;
+        while(idx < input1.length()) {
+            c1 = input1.charAt(idx);
+            c2 = input2.charAt(idx);
 
-        System.out.println(spiralList);
+            if (!map.containsKey(c1) && !map.containsKey(c2)) {
+                map.put(c1, c2);
+                map.put(c2, c1);
+            } else if (map.containsKey(c1) && map.get(c1) != c2 ||
+                    map.containsKey(c2) && map.get(c2) != c1 ) {
+                return false;
+            }
+
+            idx++;
+        }
+        return true;
+    }
+
+    public static ArrayList<ArrayList<Integer>> generatePascalTriangle(int numRows) {
+        ArrayList<ArrayList<Integer>> arr = new ArrayList<>();
+        ArrayList<Integer> first = new ArrayList<>();
+        if(numRows == 0) return arr;
+        arr.add(first);
+        arr.get(0).add(1);
+        return recur(arr,numRows-1);
+    }
+
+    public static ArrayList<ArrayList<Integer>> recur(ArrayList<ArrayList<Integer>> existing, int remain) {
+        if(remain == 0) return existing;
+
+        int back = 0;
+        int front = 1;
+        ArrayList<Integer> previous = existing.get(existing.size()-1);
+        ArrayList<Integer> middle = new ArrayList<>();
+        middle.add(1);
+        while(front < previous.size()) {
+            int b = previous.get(back++);
+            int f = previous.get(front++);
+            middle.add(b+f);
+        }
+
+        middle.add(1);
+        existing.add(middle);
+        return recur(existing, remain-1);
+    }
+
+    public static void main(String[] args) {
+        for(ArrayList<Integer> j : generatePascalTriangle(4)) {
+            System.out.println(j.toString());
+        }
     }
 }
