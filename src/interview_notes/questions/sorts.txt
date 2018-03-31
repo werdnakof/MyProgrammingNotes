@@ -1,0 +1,20 @@
+Kth Largest Element in an Array
+https://leetcode.com/problems/kth-largest-element-in-an-array/description/
+
+Topological Sort
+https://leetcode.com/problems/course-schedule/discuss/58524/Java-DFS-and-BFS-solution
+https://www.youtube.com/watch?v=ddTC4Zovtbc
+
+Insertion Sort a list Node (Hard)
+https://leetcode.com/problems/insertion-sort-list/description/
+
+Given a list of non negative integers, arrange them such that they form the largest number.
+For example, given [3, 30, 34, 5, 9], the largest formed number is 9534330.
+https://leetcode.com/problems/largest-number/description/
+
+Sort LinkedNode List
+https://leetcode.com/problems/merge-intervals/description/
+
+When sorting a bunch of elements not by its default numerical value
+e.g. sort by frequency of each number or sort by the first number in the integer e.g. 3 in 329
+Convert to String, and then apply comparator

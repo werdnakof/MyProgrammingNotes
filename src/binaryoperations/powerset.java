@@ -12,6 +12,7 @@ public class powerset {
     }
 
     public static void main(String[] args) {
+
         System.out.println("\n<< operator");
         System.out.println(1 << 1);
         System.out.println(1 << 2);
@@ -47,11 +48,16 @@ public class powerset {
         System.out.println(Integer.toBinaryString(6 ^ 12));
 
         System.out.println(Integer.toBinaryString(~42));
-        System.out.println("\n~ operator");
+        System.out.println("\n~ Unary operator");
         System.out.println("~0110 would result in 1001");
         System.out.println(Integer.toBinaryString(6));
         System.out.println(Integer.toBinaryString(~6));
 
         for(int k = 4; k > 0; k >>= 1) System.out.println(k);
+
+
+
+        System.out.println(Integer.toBinaryString(~0 << 5 | ((1 << 2)-1)));
+//        System.out.println(Integer.toBinaryString());
     }
 }

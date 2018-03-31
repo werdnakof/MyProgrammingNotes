@@ -12,3 +12,6 @@ Note: sub-problems need to be acyclic i.e. not repeating the same computation
 2. guess (part of solution) and then select the best
 3. relate sub problem solutions
 4. recurse & memorize or build DP table bottom up
+
+https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-006-introduction-to-algorithms-fall-2011/lecture-videos/MIT6_006F11_lec20.pdf
+

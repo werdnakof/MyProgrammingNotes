@@ -53,7 +53,7 @@ class Product {
     public static Generator<Product> generator = new Generator<Product>() {
                 private Random rand = new Random(47);
                 public Product next() {
-                    return new Product(rand.nextInt(1000), "Test",
+                    return new Product(rand.nextInt(1000), "HourClass",
                             Math.round(rand.nextDouble() * 1000.0) + 0.99);
                 }
             };

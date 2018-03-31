@@ -1,0 +1,28 @@
+
+Adventures with concurrent programming in Java Talk
+https://www.youtube.com/watch?v=929OrIvbW18&t=4s
+
+Parallel vs Concurrent
+
+1. Parallel is opposite of Serial
+2. Concurrent is opposite of Sequential
+3. Vector is opposite of Scalar
+
+Concurrency is about DEALING with lots of things at once
+
+Parallelism is about DOING with lots of things at once
+
+CPU caches:
+Cost of getting from memory is greater than cpu cache
+
+Need to protect thread-shared data structures from locking,
+deal with mutual exclusions,
+each thread runs from beginning to end which then flushes cpu cache
+
+
+Pipelines:
+Splitting an sequential application into small stages each running its own concurrent thread (see 7:53 at video)
+
+Batching:
+Collecting a bunch of task and executing them in one go.
+

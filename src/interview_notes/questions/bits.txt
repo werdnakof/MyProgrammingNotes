@@ -1,0 +1,24 @@
+what do these mean:
+&, |, ^, ~, >>, <<
+
+How to:
+Set a bit
+num | 1 << pos
+
+flip a bit
+num ^ 1 << pos
+
+clear bit
+num & ~(1 << pos)
+
+is bit set
+(num >> pos & 1)
+
+set a bit by state
+mask = 1 << position
+(x & ~mask) | (-state & mask)
+
+if a number is odd or even
+(x & 1) == 0
+
+https://graphics.stanford.edu/~seander/bithacks.html
