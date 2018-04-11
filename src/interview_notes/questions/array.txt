@@ -1,2 +1,50 @@
 Find Single Number using XOR array
 https://leetcode.com/problems/single-number/discuss/42997/My-O(n)-solution-using-XOR
+
+Array Window
+Subarray Product Less Than K
+https://leetcode.com/problems/subarray-product-less-than-k/discuss/108861/JavaC++-Clean-Code-with-Explanation
+https://leetcode.com/problems/subarray-sum-equals-k/description/
+
+Maximum Product Subarray
+https://leetcode.com/problems/maximum-product-subarray/description/
+
+Subarray Sum Equals K
+https://leetcode.com/problems/subarray-sum-equals-k/description/
+
+Product of Array Except Self
+https://leetcode.com/problems/product-of-array-except-self/description/
+
+Maximum Sum Subarray
+https://leetcode.com/problems/maximum-subarray/description/
+
+2Sum
+https://leetcode.com/problems/two-sum/
+https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/description/
+
+3Sum
+https://leetcode.com/problems/3sum/discuss/7380/Concise-O(N2)-Java-solution
+
+Longest Consecutive Sequence
+https://leetcode.com/problems/longest-consecutive-sequence/description/
+(beest solution using union find) https://leetcode.com/problems/longest-consecutive-sequence/discuss/41062/My-Java-Solution-using-UnionFound
+
+
+Spiral I & II
+https://leetcode.com/problems/spiral-matrix/description/
+https://leetcode.com/problems/spiral-matrix-ii/
+
+Remove Duplicates from Sorted Array II
+https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/description/
+
+Merge Sorted Array
+https://leetcode.com/problems/merge-sorted-array/
+
+Number of Subarrays with Bounded Maximum
+https://leetcode.com/problems/number-of-subarrays-with-bounded-maximum/description/
+
+Search sorted 2d array
+https://leetcode.com/problems/search-a-2d-matrix-ii/description/
+
+Majority Element II
+https://leetcode.com/problems/majority-element-ii/description/

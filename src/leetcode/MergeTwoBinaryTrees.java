@@ -11,11 +11,6 @@ public class MergeTwoBinaryTrees {
         TreeNode(int x) { val = x; }
     }
 
-      public class ListNode {
-     int val;
-     ListNode next;
-      ListNode(int x) { val = x; }
-  }
 
     public TreeNode mergeTrees(TreeNode root1, TreeNode root2) {
         int first = root1 == null ? 0 : root1.val;
@@ -39,29 +34,6 @@ public class MergeTwoBinaryTrees {
         }
 
         return newRoot;
-    }
-
-    public ListNode mergeTwoLists(ListNode l1, ListNode l2) {
-        if(l1 == null && l2 == null) {
-            return null;
-        }
-
-        ListNode result;
-
-        if(l1 != null && l2 != null) {
-            result = l1.val > l2.val ? new ListNode(l2.val) : new ListNode(l1.val);
-            l2 = l2.next;
-        } else if(l1 == null) {
-            result = new ListNode(l2.val);
-            l2 = l2.next;
-        } else {
-            result = new ListNode(l1.val);
-            l1 = l1.next;
-        }
-
-        result.next = mergeTwoLists(l1, l2);
-
-        return result;
     }
 
     public static boolean isValid(String s) {

@@ -37,3 +37,11 @@ https://www.youtube.com/watch?v=NnD96abizww
 matrix chain multiplication
 https://www.youtube.com/watch?v=vgLJZMUfnsU&index=3&list=PLrmLmBdmIlpsHaNTPP_jHHDx_os9ItYXr
 
+Perfect Squares
+https://leetcode.com/problems/perfect-squares/description/
+
+Coin Change
+https://leetcode.com/problems/coin-change/description/
+
+Longest Increasing Subsequence
+https://leetcode.com/problems/longest-increasing-subsequence/description/

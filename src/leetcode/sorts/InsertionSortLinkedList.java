@@ -32,7 +32,7 @@ public class InsertionSortLinkedList {
         while( cur != null ){
             next = cur.next;
             //find the right place to insert
-            while( pre.next != null && pre.next.val < cur.val ){
+            while( pre.next != null && pre.next.val < cur.val ) {
                 pre = pre.next;
             }
             //insert between pre and pre.next
@@ -49,6 +49,7 @@ public class InsertionSortLinkedList {
 
         if(head == null || head.next == null) return head;
 
+        // recursive call to sift largest to the end
         head.next = insertionSortList(head.next);
 
         ListNode parent = head;
@@ -57,8 +58,14 @@ public class InsertionSortLinkedList {
 
         ListNode before = null;
 
+        // set next to parent because head will be swapped
         if(head.val > next.val) parent = next;
 
+        // swap
+        // [before] -> [head] -> [next]
+        // [before] -> [next] -> [head]
+        // shift forward
+        // [next] -> [head] -> [head.next]
         while(next != null && head.val > next.val) {
             swap(before, head, next);
             before = next;
