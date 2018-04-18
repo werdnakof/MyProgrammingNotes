@@ -2,8 +2,8 @@
 
 ### Deign Patterns
 
-[Behaviour](/patternpractise/behaviour/notes.md)
+[Behaviour](src/patternpractise/behaviour/notes.md)
 
-[Structural](/patternpractise/structural/notes.md)
+[Structural](src/patternpractise/structural/notes.md)
 
-[Creational](/patternpractise/creational/notes.md)
+[Creational](src/patternpractise/creational/notes.md)
