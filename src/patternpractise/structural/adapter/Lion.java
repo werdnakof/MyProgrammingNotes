@@ -1,4 +1,4 @@
-package patternpractise.Structural.adapter;
+package patternpractise.structural.adapter;
 
 public interface Lion {
     String roar();

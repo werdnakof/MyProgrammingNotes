@@ -1,4 +1,4 @@
-package patternpractise.Structural.bridge;
+package patternpractise.structural.bridge;
 
 public class Careers extends WebPage {
     public Careers(Theme theme) {

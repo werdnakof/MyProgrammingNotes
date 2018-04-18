@@ -1,4 +1,4 @@
-package patternpractise.Structural.decorator;
+package patternpractise.structural.decorator;
 
 public interface Coffee {
     Double getCost();

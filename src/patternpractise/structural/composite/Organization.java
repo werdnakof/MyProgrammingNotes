@@ -1,4 +1,4 @@
-package patternpractise.Structural.composite;
+package patternpractise.structural.composite;
 
 import java.util.*;
 import java.util.stream.Collector;

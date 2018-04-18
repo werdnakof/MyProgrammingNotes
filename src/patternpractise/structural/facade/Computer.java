@@ -1,4 +1,4 @@
-package patternpractise.Structural.facade;
+package patternpractise.structural.facade;
 
 public class Computer
 {

@@ -1,4 +1,4 @@
-package patternpractise.Structural.composite;
+package patternpractise.structural.composite;
 
 public class Designer extends Employee {
     public Designer(String name, Double salary) {

@@ -1,4 +1,4 @@
-package patternpractise.Structural.composite;
+package patternpractise.structural.composite;
 
 public class Person {
     String name;

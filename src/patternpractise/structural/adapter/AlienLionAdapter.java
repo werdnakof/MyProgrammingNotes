@@ -1,4 +1,4 @@
-package patternpractise.Structural.adapter;
+package patternpractise.structural.adapter;
 
 public class AlienLionAdapter implements Lion {
     protected Alien alien;

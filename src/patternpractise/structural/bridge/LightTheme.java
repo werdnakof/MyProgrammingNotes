@@ -1,4 +1,4 @@
-package patternpractise.Structural.bridge;
+package patternpractise.structural.bridge;
 
 public class LightTheme implements Theme {
     @Override

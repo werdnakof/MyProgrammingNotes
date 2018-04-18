@@ -1,4 +1,4 @@
-package patternpractise.Structural.composite;
+package patternpractise.structural.composite;
 
 public abstract class Employee {
     private String name;
