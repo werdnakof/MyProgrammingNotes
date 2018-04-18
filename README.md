@@ -1,6 +1,6 @@
 # MyProgrammingNotes
 
-### Deign Patterns
+### Design Patterns
 
 [Behaviour](src/patternpractise/behaviour/notes.md)
 
