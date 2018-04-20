@@ -10,6 +10,8 @@ Before approaching a problem, always ask for more details!
 - Speak in clear and moderate tone
 - If you are unsure, tell them what you are unsure about
 
+### [Networking](/src/interview_notes/networking.md)
+
 ### Data Structures
 
 * ArrayLists
