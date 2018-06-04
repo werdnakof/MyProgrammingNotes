@@ -9,9 +9,7 @@ One of the primary motivations for generics is to specify what type of object a 
 GenericHolder can only hold one type of object at runtime once
 it has been initialized.
 
-
-### Tuple ###
-
+### Tuple
 With generics, it’s possible for a method to return a group of
 elements, which can only be read but not put new ones in.
 This ensures compile-time type safety.
@@ -204,5 +202,5 @@ See CaptureConversion
 P. 515
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NTg4MDU3MjYsMTUyNDUyMTA3N119
+eyJoaXN0b3J5IjpbLTE0Njg1ODkyNzUsMTUyNDUyMTA3N119
 -->
