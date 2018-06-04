@@ -95,14 +95,12 @@ Even though the compiler is unable to know anything about T inside ListMaker,
 it can still ensure—at compile time—that what you put into result is of type T,
 so that it agrees with ArrayList<T>.
 
-Thus, even though erasure removes the information about the actual type inside a method or class, the compiler can still ensure internal consistency in the way that the type is used within the method or class.
+Thus, even though erasure removes the information about the actual type inside a method or class, the compiler can still ensure consistency in the way that the type is used within the method or class.
 
 Erasure removes type information in the body of a method, what matters at run time
 is the boundaries: the points where objects enter and leave a method
 
-Erasure loses the ability to perform certain operations in generic code i.e. anything that requires the knowledge of the exact type at run time won’t work. However you can introduce a class type field in class to 'remember' type
-
-See [ClassTypeCapture](https://github.com/werdnakof/MyProgrammingNotes/blob/master/src/generics/ClassTypeCapture.java)
+Erasure loses the ability to perform certain operations in generic code i.e. anything that requires the knowledge of the exact type at run time won’t work. However you can introduce a class type field in class to 'remember' type. See [ClassTypeCapture](https://github.com/werdnakof/MyProgrammingNotes/blob/master/src/generics/ClassTypeCapture.java)
 
 ### Generic Array ###
 
@@ -186,5 +184,5 @@ See CaptureConversion
 P. 515
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE1MDAyMDY1NCwxNTI0NTIxMDc3XX0=
+eyJoaXN0b3J5IjpbLTE4MDU0NTk4OTksMTUyNDUyMTA3N119
 -->
