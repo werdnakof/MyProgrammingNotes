@@ -5,6 +5,7 @@ import java.util.ArrayList;
 public class ObjectHolder {
     private Object a;
 
+    // ObjectHolder can hold any objects at run time after it has been initialized.
     public ObjectHolder(Object a) { this.a = a; }
 
     public void set(Object a) { this.a = a; }
