@@ -30,10 +30,11 @@ Android (Kotlin, RxJava, Retrofit, Mokito, Dagger 2, OkHttp)
 - Pair programming with backend
 - Protocol buffers library to sync up API structure between backend and Android
 
+Being able to discuss features with product managers using layman language, trying to explain to them why features can or cannot be implemented or delayed can be tricky. Discussing Android design's limitation with UI designers, trade-off between features, time-cost and complexity.
+
 Liricco Technology
 
 
-
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTczMDIyMzA2LDExNjE1MjUwNDhdfQ==
+eyJoaXN0b3J5IjpbLTE4MzAwMjc2OTAsMTE2MTUyNTA0OF19
 -->
