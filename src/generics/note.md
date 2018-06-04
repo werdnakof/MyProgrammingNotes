@@ -33,7 +33,7 @@ but not with methods
 
 See GenericMethods
 
-### Leveraging type argument inference ###
+### Leveraging type argument inference
 
 See GenericContainerGenerator
 
@@ -41,19 +41,19 @@ https://stackoverflow.com/questions/4343202/difference-between-super-t-and-exten
 
 Remember PECS: "Producer Extends, Consumer Super".
 
-### A generic method to use with Generators ###
+### A generic method to use with Generators
 
 See BasicGenerator and BasicGeneratorDemo
 
-### Set utility - an example ###
+### Set utility - an example
 
 See ContainerMethodDifferences and Sets
 
-### Anonymous inner classes ###
+### Anonymous inner classes
 
 See Customer and Teller
 
-### Store - complex model using generics, inner class and generator ###
+### Store - complex model using generics, inner class and generator
 
 See Store
 
@@ -201,5 +201,5 @@ See CaptureConversion
 P. 515
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NTE0ODEzNDcsMTUyNDUyMTA3N119
+eyJoaXN0b3J5IjpbLTc0OTg5NDI3MiwxNTI0NTIxMDc3XX0=
 -->
