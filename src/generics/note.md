@@ -4,10 +4,7 @@ There are some cases where you want a container to hold multiple types of oObjec
 [See ObjectHolder](https://github.com/werdnakof/MyProgrammingNotes/blob/master/src/generics/ObjectHolder.java)
 
 One of the primary motivations for generics is to specify what type of object a container holds, and to have that specification backed up by the compiler.
-
-E.g.  [GenericHolder](https://github.com/werdnakof/MyProgrammingNotes/blob/master/src/generics/GenericHolder
-
-.java)
+[See GenericHolder](https://github.com/werdnakof/MyProgrammingNotes/blob/master/src/generics/GenericHolder.java)
 
 GenericHolder can only hold one type of object at runtime once
 it has been initialized.
@@ -207,5 +204,5 @@ See CaptureConversion
 P. 515
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDgyMDczNDksMTUyNDUyMTA3N119
+eyJoaXN0b3J5IjpbLTE1NTg4MDU3MjYsMTUyNDUyMTA3N119
 -->
