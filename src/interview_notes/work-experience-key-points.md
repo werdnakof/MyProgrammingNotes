@@ -26,7 +26,7 @@ Backend (PHP, MySQL, Docker, AWS)
 Android (Kotlin, RxJava, Retrofit, Mokito, Dagger 2, OkHttp)
 - Single Activity, multiple fragaments
 - Reactive based Redux pattern
-- I have learnt to mock and test API calls, testing UI elements
+- Mock and test API calls, testing UI elements
 - Pair programming with backend
 - Protocol buffers library to sync up API structure between backend and Android
 
@@ -35,5 +35,5 @@ Liricco Technology
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY4NTk3NDAzMCwxMTYxNTI1MDQ4XX0=
+eyJoaXN0b3J5IjpbLTczMDIyMzA2LDExNjE1MjUwNDhdfQ==
 -->
