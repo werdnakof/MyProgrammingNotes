@@ -23,7 +23,10 @@ Backend (PHP, MySQL, Docker, AWS)
 	- There is also integration with the Android app via web API, good API design practise taking into account minimizing JSON size and maximize speed. (trade off between 1 API call vs multiple)
 
 Android 
+- Single Activity, multiple fragaments
+- Reactive based Redux pattern (RxJava, Retrofit)
+- 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU5MDk0NDkyNywxMTYxNTI1MDQ4XX0=
+eyJoaXN0b3J5IjpbMjA2NzczNjcxOSwxMTYxNTI1MDQ4XX0=
 -->
