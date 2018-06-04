@@ -16,11 +16,11 @@ This ensures compile-time type safety.
 
 See TwoTuple, 'final' prevent users from reassigning the fields
 
-### Generic interfaces
+### Generic Interfaces
 
 Generics also work with interfaces. [See CoffeeGenerator](https://github.com/werdnakof/MyProgrammingNotes/blob/master/src/generics/CoffeeGenerator.java)
 
-### No primitives for generics
+### No Primitives for Generics!
 
 ### Generic Methods ###
 
@@ -35,11 +35,9 @@ See GenericMethods
 
 ### Leveraging type argument inference
 
-See GenericContainerGenerator
+[See GenericContainerGenerator](https://github.com/werdnakof/MyProgrammingNotes/blob/master/src/generics/GenericContainerGenerator.java)
 
-https://stackoverflow.com/questions/4343202/difference-between-super-t-and-extends-t-in-java
-
-Remember PECS: "Producer Extends, Consumer Super".
+[Remember PECS: "Producer Extends, Consumer Super"](https://stackoverflow.com/questions/4343202/difference-between-super-t-and-extends-t-in-java)
 
 ### A generic method to use with Generators
 
@@ -61,7 +59,7 @@ See Store
 
 See LostInformation
 
-### generic type parameter erases to its first bound ###
+### generic type parameter erases to its first bound
 
 See Manipulator:
 The bound <T extends HasF> says that T must be of type HasF or something derived
@@ -201,5 +199,5 @@ See CaptureConversion
 P. 515
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc0OTg5NDI3MiwxNTI0NTIxMDc3XX0=
+eyJoaXN0b3J5IjpbLTIwMjMwMjY2MDMsMTUyNDUyMTA3N119
 -->
