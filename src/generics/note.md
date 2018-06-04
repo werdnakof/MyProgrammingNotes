@@ -16,11 +16,11 @@ This ensures compile-time type safety.
 
 See TwoTuple, 'final' prevent users from reassigning the fields
 
-### Generic interfaces ###
+### Generic interfaces
 
 Generics also work with interfaces. [See CoffeeGenerator](https://github.com/werdnakof/MyProgrammingNotes/blob/master/src/generics/CoffeeGenerator.java)
 
-### No primitives for generics ###
+### No primitives for generics
 
 ### Generic Methods ###
 
@@ -201,5 +201,5 @@ See CaptureConversion
 P. 515
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcyMTI3NTU3NSwxNTI0NTIxMDc3XX0=
+eyJoaXN0b3J5IjpbLTE1NTE0ODEzNDcsMTUyNDUyMTA3N119
 -->
