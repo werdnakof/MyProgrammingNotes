@@ -2,28 +2,28 @@
 [What is the hierarchy of JVM, JDK, JRE, JIT?](https://stackoverflow.com/questions/17408363/what-is-the-hierarchy-of-jvm-jdk-jre-jit)
 [How does JVM handles bytecode](https://stackoverflow.com/questions/2203248/what-are-bytecodes-and-how-does-the-jvm-handle-them) 
 [another link](https://softwareengineering.stackexchange.com/questions/286712/compilation-to-bytecode-vs-machine-code)
-
-**_Java Virtual Machine  (JVM)_**: runs Java bytecode.
-**_Java Developer Kit  (JDK)_**: compile Java source code to bytecode.
-**_Java Runtime Environment  (JRE)_**: runs a Java program and contains a JVM, among other things.
-
 ![](https://i.stack.imgur.com/eUqSJ.png)
 
+**_Java Developer Kit  (JDK)_**: compile Java source code to bytecode.
+**_Java Virtual Machine  (JVM)_**: runs Java bytecode.
+**_Java Runtime Environment  (JRE)_**: runs a Java program and contains a JVM, among other things.
+
     The JVM has an instruction set just like a real machine. 
-    
     The name of instruction set is Java Bytecode. (described in the Java Virtual Machine Specification.) 
     
     Other languages are translated into a bytecode before execution, for example ruby and python. 
     Java's bytecode is at a fairly low level while python's is much more high level.
     
-    Compiling Java source code to JVM byte code is relatively straight forward, 
+    Compiling Java source code to JVM byte code is straight forward, 
     since there is a core subset of Java that maps pretty much directly to a subset of JVM byte code.
     
     There are some differences: Java has loops but no GOTO, the JVM has GOTO but no loops, 
     Java has generics, the JVM doesn't, but those can be easily dealt with 
     (the transformation from loops to conditional jumps is trivial, type erasure slightly less so, but still manageable).
-    
-    Interpretation and JIT compilation are two different strategies for executing bytecode.
+  
+ Interpretation VS JIT
+ 
+    Interpretation and JIT compilation are two different strategies for executing bytecode within JVM.
     
     Interpretation processes bytecodes one at a time making the changes to the virtual machine state 
     that are encoded in each instruction. 
@@ -106,14 +106,13 @@ There is one large region of virtual memory you can use. There isn't a picture b
     How the JVM heap, stack, registers and threads are mapped to operating system? 
     or I should ask how they are mapped to physical machine?
     
-Again there is no magic. The JVM heap is a region of memory, a JVM stack is the same a native stack which is what C+ uses, the JVM's registers is the same as native registers which is what C+ uses and JVMs thread are actually native threads which is what C+ uses.
-    
+Again there is no magic. The JVM heap is a region of memory, a JVM stack is the same a native stack which is what C++ uses, the JVM's registers is the same as native registers which is what C++ uses and JVMs thread are actually native threads which is what C++ uses.
+
 I think you are assuming there is more magic or obscurity going on than there is. Instead you should assume that the simplest, efficient and lightweight design has been used and you won't be far off.
     
     I should ask how they are mapped to physical machine?
 
 one to one basically.
-    
 
 Runtime data area in JVM can be divided as below,
 
@@ -123,5 +122,5 @@ Java stack: Storage area for local variables, results of intermediate operations
 Program Counter (PC) Register : Stores the address of the next instruction to be executed if the next instruction is native method then the value in pc register will be undefined. (One per thread)
 Native method stacks : Helps in executing native methods (methods written in languages other than Java). (One per thread)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIwOTQyMDk5MywtOTA0MDU3NjAwXX0=
+eyJoaXN0b3J5IjpbMTQwNDU3NDE2MSwtOTA0MDU3NjAwXX0=
 -->
