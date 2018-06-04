@@ -97,6 +97,8 @@ so that it agrees with ArrayList<T>.
 
 Thus, even though erasure removes the information about the actual type inside a method or class, the compiler can still ensure consistency in the way that the type is used within the method or class.
 
+**_The difference is between runtime and compile time_**
+
 Erasure removes type information in the body of a method, what matters at run time
 is the boundaries: the points where objects enter and leave a method
 
@@ -111,13 +113,13 @@ point of creation of the array. So even though gia has been cast to a Generic < 
 that information only exists at compile time (and without the @SuppressWarnings
 annotation, you’d get a warning for that cast). At run time, it’s still an array of Object, and
 
-See GenericArray:
+See [GenericArray](https://github.com/werdnakof/MyProgrammingNotes/blob/master/src/generics/GenericArray.java):
 As before, we can’t say T[] array = new T[sz], so we create an array of objects and cast it.
 The rep( ) method returns a T[], which in main( ) should be an Integer[] for gai, but if
 you call it and try to capture the result as an Integer [] reference, you get a
 ClassCastException, again because the actual runtime type is Object[]
 
-See GenericArray2:
+See [GenericArray2](https://github.com/werdnakof/MyProgrammingNotes/blob/master/src/generics/GenericArray2.java):
 Because of erasure, the runtime type of the array can only be Object[]. If we immediately
 cast it to T[], then at compile time the actual type of the array is lost, and the compiler may
 miss out on some potential error checks. Because of this, it’s better to use an Object[] inside
@@ -184,5 +186,5 @@ See CaptureConversion
 P. 515
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MDU0NTk4OTksMTUyNDUyMTA3N119
+eyJoaXN0b3J5IjpbLTYyMzU1ODM5MCwxNTI0NTIxMDc3XX0=
 -->
