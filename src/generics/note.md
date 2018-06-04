@@ -127,11 +127,11 @@ the collection, and add a cast to T when you use an array element.
 
 Note: there’s no way to subvert the type of the underlying array, which can only be Object[].
 
-Solution? Add a type! See GenericArrayWithTypeToken
+Solution? Add a type! See [GenericArrayWithTypeToken](https://github.com/werdnakof/MyProgrammingNotes/blob/master/src/generics/GenericArrayWithTypeToken.java)
 
 ### Bounds ###
 
-See BasicBounds, InheritBounds
+See [BasicBounds](https://github.com/werdnakof/MyProgrammingNotes/blob/master/src/generics/BasicBounds.java), [InheritBounds](https://github.com/werdnakof/MyProgrammingNotes/blob/master/src/generics/InheritBounds.java)
 
 ### Wildcards ###
 
@@ -186,5 +186,5 @@ See CaptureConversion
 P. 515
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYyMzU1ODM5MCwxNTI0NTIxMDc3XX0=
+eyJoaXN0b3J5IjpbMTMzNjY1NTI4NywxNTI0NTIxMDc3XX0=
 -->
