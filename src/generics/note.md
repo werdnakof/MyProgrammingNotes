@@ -41,7 +41,7 @@ See GenericMethods
 
 ### A generic method to use with Generators
 
-See BasicGenerator and BasicGeneratorDemo
+See [BasicGenerator](https://github.com/werdnakof/MyProgrammingNotes/blob/master/src/generics/BasicGenerator.java) and [BasicGeneratorDemo](https://github.com/werdnakof/MyProgrammingNotes/blob/master/src/generics/BasicGeneratorDemo.java)
 
 ### Set utility - an example
 
@@ -199,5 +199,5 @@ See CaptureConversion
 P. 515
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMjMwMjY2MDMsMTUyNDUyMTA3N119
+eyJoaXN0b3J5IjpbLTU5NDQ0ODc0NCwxNTI0NTIxMDc3XX0=
 -->
