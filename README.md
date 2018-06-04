@@ -6,9 +6,13 @@ Before approaching a problem, always ask for more details!
 - need to understand the constraints
 - features criteria
 
-- I always finishing all your 'thinking' before answering!!!
+- Always finishing all your 'thinking' before answering!!! (ask for a little more time if you need more time to think)
 - Speak in clear and moderate tone
-- If you are unsure, tell them what you are unsure about
+- If unsure, explain them what you are unsure about, go through your thought process
+
+### [General Java](http://snowdream.github.io/115-Java-Interview-Questions-and-Answers/115-Java-Interview-Questions-and-Answers/en/index.html)
+
+### [Java Generics](https://github.com/werdnakof/MyProgrammingNotes/blob/master/src/generics/note.md)
 
 ### [Networking](/src/interview_notes/networking.md)
 
@@ -26,8 +30,6 @@ Before approaching a problem, always ask for more details!
 * Graph
 
 ### Algorithms
-
-
 
 ### Design Patterns
 
