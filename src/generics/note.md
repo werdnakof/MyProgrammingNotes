@@ -22,7 +22,7 @@ Generics also work with interfaces. [See CoffeeGenerator](https://github.com/wer
 
 ### No Primitives for Generics!
 
-### Generic Methods ###
+### Generic Methods
 
 Class methods can also parameterize.
 The class itself may or may not be generic—this is independent of whether you
@@ -43,25 +43,26 @@ See GenericMethods
 
 See [BasicGenerator](https://github.com/werdnakof/MyProgrammingNotes/blob/master/src/generics/BasicGenerator.java) and [BasicGeneratorDemo](https://github.com/werdnakof/MyProgrammingNotes/blob/master/src/generics/BasicGeneratorDemo.java)
 
-### Set utility - an example
+### Set utility
 
 See [ContainerMethodDifferences](https://github.com/werdnakof/MyProgrammingNotes/blob/master/src/generics/ContainerMethodDifferences.java)
 
 ### Anonymous inner classes
 
-See Customer and Teller
+See [BankTeller](https://github.com/werdnakof/MyProgrammingNotes/blob/master/src/generics/BankTeller.java)
 
 ### Store - complex model using generics, inner class and generator
 
-See Store
+See [Store](https://github.com/werdnakof/MyProgrammingNotes/blob/master/src/generics/Store.java)
 
-### There’s no information about generic parameter types available inside generic code. ###
+### There’s no information about generic parameter types available inside generic code.
 
-See LostInformation
+See [LostInformation](https://github.com/werdnakof/MyProgrammingNotes/blob/master/src/generics/LostInformation.java)
 
-### generic type parameter erases to its first bound
+### Generic type parameter erases to its first bound
 
-See Manipulator:
+See [Manipulator](https://github.com/werdnakof/MyProgrammingNotes/blob/master/src/generics/Manipulator.java):
+
 The bound <T extends HasF> says that T must be of type HasF or something derived
 from HasF. If this is true, then it is safe to call f( ) on obj.
 
@@ -199,5 +200,5 @@ See CaptureConversion
 P. 515
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMyMDEzMjgyNSwxNTI0NTIxMDc3XX0=
+eyJoaXN0b3J5IjpbMTU3NjM3NTg2MywxNTI0NTIxMDc3XX0=
 -->
