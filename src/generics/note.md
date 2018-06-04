@@ -77,14 +77,9 @@ In an erasure-based implementation, generic types are treated as second class ty
 
 The generic types are present only during static type checking, after which every generic type in the program is erased by replacing it with a non-generic upper bound
 
-For example, type annotations such as List<T> are erased to
-List, and ordinary type variables are erased to Object unless a bound is specified.
+For example, type annotations such as List<T> (unbounded) are erased to List, and ordinary type variables are erased to Object unless a bound is specified.
 
-The primary justification for erasure is the transition process from non generified code to
-generified code, and to incorporate generics into the language without breaking existing
-libraries. Erasure allows existing nongeneric client code to continue to be used without
-change, until clients are ready to rewrite code for generics. This is a noble motivation,
-because it doesn’t suddenly break all existing code.
+The primary justification for erasure is the transition process from non generified code to generified code, and to incorporate generics into the language without breaking existing libraries. Erasure allows existing nongeneric client code to continue to be used without change, until clients are ready to rewrite code for generics. This is a noble motivation, because it doesn’t suddenly break all existing code.
 
 ### erasure's removes type information...to a certain extent ###
 
@@ -194,5 +189,5 @@ See CaptureConversion
 P. 515
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ5MDM3OTEwLDE1MjQ1MjEwNzddfQ==
+eyJoaXN0b3J5IjpbMTc5NDc4MzMyOSwxNTI0NTIxMDc3XX0=
 -->
