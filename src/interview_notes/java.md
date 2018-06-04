@@ -66,9 +66,7 @@
     The JVM is essentially a virtualized CPU plus the same sort of runtime that is included with 
     a C++ or any other object oriented language, plus garbage collection and other necessities.
     
-    Additionally, of course, Java class files (and JAR files, etc) are not machine code, 
-    but an intermediate byte code. So the JVM has to compile or interpret class files 
-    (whether contained in a JAR file or not) at runtime, and has the ability to load and find new code dynamically at runtime.
+    Additionally, of course, Java class files (and JAR files, etc) are not machine code, but an intermediate byte code. So the JVM has to compile or interpret class files (whether contained in a JAR file or not) at runtime, and has the ability to load and find new code dynamically at runtime.
     
     The JVM is called a virtual machine because the JVM definition defines an abstract machine. 
     This includes registers, stack, etc, and the byte code that Java source is compiled to is 
@@ -105,7 +103,8 @@ C++ still needs a runtime environment and libraries to start up. Try deleting yo
     
 There is one large region of virtual memory you can use. There isn't a picture because it wouldn't tell you much. Imagine one long rectangle labelled user space.
     
-    How the JVM heap, stack, registers and threads are mapped to operating system? or I should ask how they are mapped to physical machine?
+    How the JVM heap, stack, registers and threads are mapped to operating system? 
+    or I should ask how they are mapped to physical machine?
     
 Again there is no magic. The JVM heap is a region of memory, a JVM stack is the same a native stack which is what C+ uses, the JVM's registers is the same as native registers which is what C+ uses and JVMs thread are actually native threads which is what C+ uses.
     
@@ -124,5 +123,5 @@ Java stack: Storage area for local variables, results of intermediate operations
 Program Counter (PC) Register : Stores the address of the next instruction to be executed if the next instruction is native method then the value in pc register will be undefined. (One per thread)
 Native method stacks : Helps in executing native methods (methods written in languages other than Java). (One per thread)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTk2MjA0NTk5LC05MDQwNTc2MDBdfQ==
+eyJoaXN0b3J5IjpbMTIwOTQyMDk5MywtOTA0MDU3NjAwXX0=
 -->
