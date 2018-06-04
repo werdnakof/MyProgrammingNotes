@@ -99,12 +99,10 @@ Thus, even though erasure removes the information about the actual type inside
 a method or class, the compiler can still ensure internal consistency in the way that
 the type is used within the method or class.
 
-erasure removes type information in the body of a method, what matters at run time
+Erasure removes type information in the body of a method, what matters at run time
 is the boundaries: the points where objects enter and leave a method
 
-erasure loses the ability to perform certain operations in generic code i.e.
-Anything that requires the knowledge of the exact type at run time won’t work
-However you can introduce a class type field in class to 'remember' type
+Erasure loses the ability to perform certain operations in generic code i.e. anything that requires the knowledge of the exact type at run time won’t work. However you can introduce a class type field in class to 'remember' type
 
 See [ClassTypeCapture](https://github.com/werdnakof/MyProgrammingNotes/blob/master/src/generics/ClassTypeCapture.java)
 
@@ -190,5 +188,5 @@ See CaptureConversion
 P. 515
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMjYzNzU5NTAsMTUyNDUyMTA3N119
+eyJoaXN0b3J5IjpbMTU2NjU5MjY1OCwxNTI0NTIxMDc3XX0=
 -->
