@@ -1,21 +1,27 @@
 ### Object vs Generic? ###
 
-    There are some cases where you want a container to hold multiple
-    types of objects, but typically you only put one type of object
+    
+
+There are some cases where you want a container to hold multiple
+    types of oObjects, but typically you only put one type of object
     into a container.
 
-    E.g. ObjectHolder.java
+    E.g.   [ObjectHolder.java
 
     ObjectHolder can hold any objects at run time after it has
     been initialized.
 
-    One of the primary motivations for generics is to specify
+    ](https://github.com/werdnakof/MyProgrammingNotes/blob/master/src/generics/ObjectHolder.java)
+
+One of the primary motivations for generics is to specify
     what type of object a container holds,
     and to have that specification backed up by the compiler.
 
-    E.g. GenericHolder
+    E.g.  [GenericHolder](https://github.com/werdnakof/MyProgrammingNotes/blob/master/src/generics/GenericHolder
 
-    GenericHolder can only hold one type of object at runtime once
+    .java)
+
+GenericHolder can only hold one type of object at runtime once
     it has been initialized.
 
 
@@ -30,7 +36,7 @@
 
 ### Generic interfaces ###
 
-    Generics also work with interfaces. See CoffeeGenerator
+    Generics also work with interfaces. [See CoffeeGenerator](https://github.com/werdnakof/MyProgrammingNotes/blob/master/src/generics/CoffeeGenerator.java)
 
 ### No primitives for generics ###
 
@@ -212,3 +218,6 @@ See CaptureConversion
 ### Issues ###
 P. 515
 
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbMTUyNDUyMTA3N119
+-->
