@@ -1,14 +1,13 @@
 # Java Fundamentals
 [What is the hierarchy of JVM, JDK, JRE, JIT?](https://stackoverflow.com/questions/17408363/what-is-the-hierarchy-of-jvm-jdk-jre-jit)
+[How does JVM handles bytecode](https://stackoverflow.com/questions/2203248/what-are-bytecodes-and-how-does-the-jvm-handle-them) 
+[another link](https://softwareengineering.stackexchange.com/questions/286712/compilation-to-bytecode-vs-machine-code)
+
 **_Java Virtual Machine  (JVM)_**: runs Java bytecode.
 **_Java Developer Kit  (JDK)_**: compile Java source code to bytecode.
 **_Java Runtime Environment  (JRE)_**: runs a Java program and contains a JVM, among other things.
 
 ![](https://i.stack.imgur.com/eUqSJ.png)
-
-[How does JVM handles bytecode](https://stackoverflow.com/questions/2203248/what-are-bytecodes-and-how-does-the-jvm-handle-them) 
-
-[another link](https://softwareengineering.stackexchange.com/questions/286712/compilation-to-bytecode-vs-machine-code)
 
     The JVM has an instruction set just like a real machine. 
     
@@ -22,7 +21,7 @@
     
     There are some differences: Java has loops but no GOTO, the JVM has GOTO but no loops, 
     Java has generics, the JVM doesn't, but those can be easily dealt with 
-    (the transformation from loops to conditional jumps is trivial, type erasure slightly less so, but still manageable). 
+    (the transformation from loops to conditional jumps is trivial, type erasure slightly less so, but still manageable).
     
     Interpretation and JIT compilation are two different strategies for executing bytecode.
     
@@ -32,9 +31,8 @@
     JIT compilation translates the bytecode into instructions native to the host platform that 
     carry out equivalent operations.
     
-    Interpretation is generally quick to start but slow during execution, 
-    
-    while JIT has more startup overhead but runs quicker afterwards. 
+    Interpretation: quick to start, slow during execution.
+    JIT: more startup overhead, but runs quicker afterwards. 
     
     Modern JVMs use a combination of interpretation and JIT techniques to get the benefit of both. 
     
@@ -48,28 +46,22 @@
     The JVM can keep track of how often code is called and what the typical paths through the code are 
     and use this information to generate more efficient code while the program is running. 
     
-    The JVM can switch to this new code just like when it initially switches from 
-    the interpreter to the JIT code.
+    The JVM can switch to this new code just like when it initially switches from the interpreter to the JIT code.
     
-    Just like there are other languages that compile to native code, like C, C++, Fortran; there are compilers for other languages that output JVM bytecode. One example is the scala language. I believe that groovy and jruby can also convert to java bytecode.
+    Just like there are other languages that compile to native code, like C, C++, Fortran; there are compilers for other languages that output JVM bytecode. One example is the Scala language. I believe that groovy and jruby can also convert to java bytecode.
 
 [Is the JVM really a virtual machine in the same sense as my VMWare?](https://stackoverflow.com/questions/861422/is-the-java-virtual-machine-really-a-virtual-machine-in-the-same-sense-as-my-vmw)
 
     VMWare and the rest actually virtualize the hardware of the machine. 
     
-    The operating system running inside of a VMWare container 
-    have varying degrees of awareness of running within a virtualized container. 
+    The operating system running inside of a VMWare container has varying degrees of awareness of running within a virtualized container. 
     
     Within VMWare, the operating system has no idea that it is running within a virtual container. 
-    The operating system is not modified at all, although specialized drivers are usually installed (most importantly video) 
-    to prevent performance problems. 
+    The operating system is not modified at all, although specialized drivers are usually installed (most importantly video) to prevent performance problems. 
     
-    Some other VM's don't do full hardware virtualization and instead require 
-    the OS inside the container the make special calls to the container in place of the regular hardware calls.
+    Some other VM's don't do full hardware virtualization and instead require the OS inside the container the make special calls to the container in place of the regular hardware calls.
     
-    The JVM is not a virtual machine in that sense at all. 
-    
-    No hardware other than the processor is virtualized. 
+    The JVM is not a virtual machine in that sense at all, no hardware other than the processor is virtualized. 
     
     The JVM is essentially a virtualized CPU plus the same sort of runtime that is included with 
     a C++ or any other object oriented language, plus garbage collection and other necessities.
@@ -132,5 +124,5 @@ Java stack: Storage area for local variables, results of intermediate operations
 Program Counter (PC) Register : Stores the address of the next instruction to be executed if the next instruction is native method then the value in pc register will be undefined. (One per thread)
 Native method stacks : Helps in executing native methods (methods written in languages other than Java). (One per thread)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc3MDUwMjUzNCwtOTA0MDU3NjAwXX0=
+eyJoaXN0b3J5IjpbOTk2MjA0NTk5LC05MDQwNTc2MDBdfQ==
 -->
