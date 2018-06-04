@@ -21,12 +21,15 @@ Backend (PHP, MySQL, Docker, AWS)
 	- Decouple as much as possible to provide isolation during unit testing.
 	- Semi-test driven: business logics are written such that every method can be tested against all possible outcomes
 	- There is also integration with the Android app via web API, good API design practise taking into account minimizing JSON size and maximize speed. (trade off between 1 API call vs multiple)
+	- Logging purchases
 
-Android 
+Android (Kotlin, RxJava, Retrofit, Mokito, Dagger 2, OkHttp)
 - Single Activity, multiple fragaments
-- Reactive based Redux pattern (RxJava, Retrofit)
-- 
+- Reactive based Redux pattern
+- I have learnt to mock and test API calls, testing UI elements
+- Pair programming with backend
+- Protocol buffers library to sync up API structure between backend and Android
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA2NzczNjcxOSwxMTYxNTI1MDQ4XX0=
+eyJoaXN0b3J5IjpbMjM3OTgwOTM5LDExNjE1MjUwNDhdfQ==
 -->
