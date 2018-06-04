@@ -1,6 +1,0 @@
-Thread vs Process
-
-Process:
-- instance of program in excution
-- independent to which system resouces are allocated
--
