@@ -1,71 +1,69 @@
-### Object vs Generic? ###
-
-    
+### Object vs Generic?
 
 There are some cases where you want a container to hold multiple
-    types of oObjects, but typically you only put one type of object
-    into a container.
+types of oObjects, but typically you only put one type of object
+into a container.
 
-    E.g.   [ObjectHolder.java
+E.g.   [ObjectHolder.java
 
-    ObjectHolder can hold any objects at run time after it has
-    been initialized.
+ObjectHolder can hold any objects at run time after it has
+been initialized.
 
-    ](https://github.com/werdnakof/MyProgrammingNotes/blob/master/src/generics/ObjectHolder.java)
+](https://github.com/werdnakof/MyProgrammingNotes/blob/master/src/generics/ObjectHolder.java)
 
 One of the primary motivations for generics is to specify
-    what type of object a container holds,
-    and to have that specification backed up by the compiler.
+what type of object a container holds,
+and to have that specification backed up by the compiler.
 
-    E.g.  [GenericHolder](https://github.com/werdnakof/MyProgrammingNotes/blob/master/src/generics/GenericHolder
+E.g.  [GenericHolder](https://github.com/werdnakof/MyProgrammingNotes/blob/master/src/generics/GenericHolder
 
-    .java)
+.java)
 
 GenericHolder can only hold one type of object at runtime once
-    it has been initialized.
+it has been initialized.
 
 
 ### Tuple ###
 
-    With generics, it’s possible for a method to return a group of
-    elements, which can only be read but not put new ones in.
-    This ensures compile-time type safety.
+With generics, it’s possible for a method to return a group of
+elements, which can only be read but not put new ones in.
+This ensures compile-time type safety.
 
-    See TwoTuple, 'final' prevent users from reassigning the fields
+See TwoTuple, 'final' prevent users from reassigning the fields
 
 
 ### Generic interfaces ###
 
-    Generics also work with interfaces. [See CoffeeGenerator](https://github.com/werdnakof/MyProgrammingNotes/blob/master/src/generics/CoffeeGenerator.java)
+Generics also work with interfaces. [See CoffeeGenerator](https://github.com/werdnakof/MyProgrammingNotes/blob/master/src/generics/CoffeeGenerator.java)
 
 ### No primitives for generics ###
 
 ### Generic Methods ###
 
-    Class methods can also parameterize.
-    The class itself may or may not be generic—this is independent of whether you
-    have a generic method.
+Class methods can also parameterize.
+The class itself may or may not be generic—this is independent of whether you
+have a generic method.
 
-    With class generics, they have to be specified when class is initialized,
-    but not with methods
+With class generics, they have to be specified when class is initialized,
+but not with methods
 
-    See GenericMethods
+See GenericMethods
 
 ### Leveraging type argument inference ###
 
-    See GenericContainerGenerator
+See GenericContainerGenerator
 
-    https://stackoverflow.com/questions/4343202/difference-between-super-t-and-extends-t-in-java
+https://stackoverflow.com/questions/4343202/difference-between-super-t-and-extends-t-in-java
 
-    Remember PECS: "Producer Extends, Consumer Super".
+Remember PECS: "Producer Extends, Consumer Super".
 
 ### A generic method to use with Generators ###
 
-    See BasicGenerator and BasicGeneratorDemo
+See BasicGenerator and BasicGeneratorDemo
 
 ### Set utility - an example ###
 
-    See ContainerMethodDifferences and Sets
+See ContainerMethodDifferences and Sets
 
 ### Anonymous inner classes ###
 
@@ -219,5 +217,5 @@ See CaptureConversion
 P. 515
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTUyNDUyMTA3N119
+eyJoaXN0b3J5IjpbODYxNzY5NTE4LDE1MjQ1MjEwNzddfQ==
 -->
