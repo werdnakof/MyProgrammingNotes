@@ -1,15 +1,7 @@
 ### Object vs Generic?
 
-There are some cases where you want a container to hold multiple
-types of oObjects, but typically you only put one type of object
-into a container.
-
-E.g.   [ObjectHolder.java
-
-ObjectHolder can hold any objects at run time after it has
-been initialized.
-
-](https://github.com/werdnakof/MyProgrammingNotes/blob/master/src/generics/ObjectHolder.java)
+There are some cases where you want a container to hold multiple types of oObjects, but typically you only put one type of object into a container.
+[See ObjectHolder](https://github.com/werdnakof/MyProgrammingNotes/blob/master/src/generics/ObjectHolder.java)
 
 One of the primary motivations for generics is to specify
 what type of object a container holds,
@@ -217,5 +209,5 @@ See CaptureConversion
 P. 515
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODYxNzY5NTE4LDE1MjQ1MjEwNzddfQ==
+eyJoaXN0b3J5IjpbODg3OTA0Mjg5LDE1MjQ1MjEwNzddfQ==
 -->
