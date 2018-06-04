@@ -10,7 +10,9 @@ Before approaching a problem, always ask for more details!
 - Speak in clear and moderate tone
 - If unsure, explain them what you are unsure about, go through your thought process
 
-### [General Java](http://snowdream.github.io/115-Java-Interview-Questions-and-Answers/115-Java-Interview-Questions-and-Answers/en/index.html)
+### [General Java Knowledge](http://snowdream.github.io/115-Java-Interview-Questions-and-Answers/115-Java-Interview-Questions-and-Answers/en/index.html)
+
+### [JVM, JRE, JDK](https://github.com/werdnakof/MyProgrammingNotes/blob/master/src/interview_notes/java.md)
 
 ### [Java Generics](https://github.com/werdnakof/MyProgrammingNotes/blob/master/src/generics/note.md)
 
@@ -28,6 +30,8 @@ Before approaching a problem, always ask for more details!
 * Binary Search Tree
 * Tries (Prefix Trees)
 * Graph
+
+[Master's Theorm](https://github.com/werdnakof/MyProgrammingNotes/blob/master/src/interview_notes/masterstheorem.md)
 
 ### Algorithms
 
