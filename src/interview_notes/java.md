@@ -47,19 +47,13 @@
     and use this information to generate more efficient code while the program is running. 
     
     The JVM can switch to this new code just like when it initially switches from the interpreter to the JIT code.
-    
-    Just like there are other languages that compile to native code, like C, C++, Fortran; there are compilers for other languages that output JVM bytecode. One example is the Scala language. I believe that groovy and jruby can also convert to java bytecode.
 
 [Is the JVM really a virtual machine in the same sense as my VMWare?](https://stackoverflow.com/questions/861422/is-the-java-virtual-machine-really-a-virtual-machine-in-the-same-sense-as-my-vmw)
 
-    VMWare and the rest actually virtualize the hardware of the machine. 
-    
-    The operating system running inside of a VMWare container has varying degrees of awareness of running within a virtualized container. 
+    VMWare and the rest actually virtualize the hardware of the machine.
     
     Within VMWare, the operating system has no idea that it is running within a virtual container. 
     The operating system is not modified at all, although specialized drivers are usually installed (most importantly video) to prevent performance problems. 
-    
-    Some other VM's don't do full hardware virtualization and instead require the OS inside the container the make special calls to the container in place of the regular hardware calls.
     
     The JVM is not a virtual machine in that sense at all, no hardware other than the processor is virtualized. 
     
@@ -74,8 +68,7 @@
     
     The JVM then interprets or compiles this byte code into native machine instructions.
     
-    The difference is essentially that the JVM is a virtualized processor and the other virtual machines are 
-    virtualized machines (including video card, network, and other external devices and hardware registers)
+    The difference is essentially that the JVM is a virtualized processor and the other virtual machines are virtualized machines (including video card, network, and other external devices and hardware registers)
     
 [5 processes of a java program are running at a same time in the server, can we say that these 5 java processes are running in 5 JVMs?](https://stackoverflow.com/questions/4301531/jvm-and-java-linux-process)
 
@@ -83,7 +76,8 @@
     
 [How JVM stack, heap and threads are mapped to physical memory or operation system](https://stackoverflow.com/questions/16264118/how-jvm-stack-heap-and-threads-are-mapped-to-physical-memory-or-operation-syste)
 
-    What I don't understand is that since JVM is essentially a software, how are those JVM heap, stack and threads mapped to physical machine?
+*What I don't understand is that since JVM is essentially a software.
+How are those JVM heap, stack and threads mapped to physical machine?*
 
 The heap is a pre-allocated continuous region of virtual memory. e.g.
     
@@ -122,5 +116,5 @@ Java stack: Storage area for local variables, results of intermediate operations
 Program Counter (PC) Register : Stores the address of the next instruction to be executed if the next instruction is native method then the value in pc register will be undefined. (One per thread)
 Native method stacks : Helps in executing native methods (methods written in languages other than Java). (One per thread)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQwNDU3NDE2MSwtOTA0MDU3NjAwXX0=
+eyJoaXN0b3J5IjpbLTIxMTgwMTY3MTYsLTkwNDA1NzYwMF19
 -->
