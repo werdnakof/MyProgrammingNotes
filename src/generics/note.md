@@ -45,7 +45,7 @@ See [BasicGenerator](https://github.com/werdnakof/MyProgrammingNotes/blob/master
 
 ### Set utility - an example
 
-See ContainerMethodDifferences and Sets
+See [ContainerMethodDifferences](https://github.com/werdnakof/MyProgrammingNotes/blob/master/src/generics/ContainerMethodDifferences.java)
 
 ### Anonymous inner classes
 
@@ -199,5 +199,5 @@ See CaptureConversion
 P. 515
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU5NDQ0ODc0NCwxNTI0NTIxMDc3XX0=
+eyJoaXN0b3J5IjpbLTMyMDEzMjgyNSwxNTI0NTIxMDc3XX0=
 -->
