@@ -137,11 +137,8 @@ See [BasicBounds](https://github.com/werdnakof/MyProgrammingNotes/blob/master/sr
 
 1. Covariance
 
-See CovariantArrays:
-Unlike arrays, generics do not have built-in covariance. This is
-because arrays are completely defined in the language and can thus have both compile-time
-and runtime checks built in, but with generics, the compiler and runtime system cannot
-know what you want to do with your types and what the rules should be.
+See [CovariantArrays](https://github.com/werdnakof/MyProgrammingNotes/blob/master/src/generics/CovariantArrays.java):
+Unlike arrays, generics do not have built-in covariance. This is because arrays are completely defined in the language and can thus have both compile-time and runtime checks built in, but with generics, the compiler and runtime system cannot know what you want to do with your types and what the rules should be.
 
 See GenericsAndCovariance:
 After upcast, the list can’t even add an Apple that you just said would hold Apples.
@@ -186,5 +183,5 @@ See CaptureConversion
 P. 515
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMzNjY1NTI4NywxNTI0NTIxMDc3XX0=
+eyJoaXN0b3J5IjpbMTk5ODAyMjE2NywxNTI0NTIxMDc3XX0=
 -->
