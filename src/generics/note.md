@@ -63,25 +63,19 @@ See [LostInformation](https://github.com/werdnakof/MyProgrammingNotes/blob/maste
 
 See [Manipulator](https://github.com/werdnakof/MyProgrammingNotes/blob/master/src/generics/Manipulator.java):
 
-The bound <T extends HasF> says that T must be of type HasF or something derived
-from HasF. If this is true, then it is safe to call f( ) on obj.
+The bound <T extends HasF> says that T must be of type HasF or something derived from HasF. If this is true, then it is safe to call f( ) on obj.
 
-Generics are only useful when you want to use type
-parameters that are more "generic" than a specific type (and all its subtypes)
+Generics are only useful when you want to use type parameters that are more "generic" than a specific type (and all its subtypes)
 
 That is, when you want code to work across multiple classes.
 
-As a result, the type parameters and their application in useful generic code
-will usually be more complex than simple class replacement
+As a result, the type parameters and their application in useful generic code will usually be more complex than simple class replacement
 
-### Migration compatibility ###
+### Migration compatibility
 
-In an erasure-based implementation, generic types are treated as second class types that
-cannot be used in some important contexts.
+In an erasure-based implementation, generic types are treated as second class types that cannot be used in some important contexts.
 
-The generic types are present only during static type checking,
-after which every generic type in the program is erased by replacing it with a
-non-generic upper bound
+The generic types are present only during static type checking, after which every generic type in the program is erased by replacing it with a non-generic upper bound
 
 For example, type annotations such as List<T> are erased to
 List, and ordinary type variables are erased to Object unless a bound is specified.
@@ -200,5 +194,5 @@ See CaptureConversion
 P. 515
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU3NjM3NTg2MywxNTI0NTIxMDc3XX0=
+eyJoaXN0b3J5IjpbLTQ5MDM3OTEwLDE1MjQ1MjEwNzddfQ==
 -->
