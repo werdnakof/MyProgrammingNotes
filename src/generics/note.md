@@ -83,14 +83,14 @@ The primary justification for erasure is the transition process from non generif
 
 ### erasure's removes type information...to a certain extent
 
-See ArrayMaker:
+See [ArrayMaker](https://github.com/werdnakof/MyProgrammingNotes/blob/master/src/generics/ArrayMaker.java):
 Even though kind is stored as Class<T>, erasure means that it is actually just being stored
 as a Class, with no parameter!!!
 
 Array.newInstance( ) doesn’t actually have the type information that’s implied in kind
 So the Array only contains null instances
 
-See ListMaker:
+See [ListMaker](https://github.com/werdnakof/MyProgrammingNotes/blob/master/src/generics/ListMaker.java):
 Even though the compiler is unable to know anything about T inside ListMaker,
 it can still ensure—at compile time—that what you put into result is of type T,
 so that it agrees with ArrayList<T>.
@@ -105,7 +105,8 @@ is the boundaries: the points where objects enter and leave a method
 erasure loses the ability to perform certain operations in generic code i.e.
 Anything that requires the knowledge of the exact type at run time won’t work
 However you can introduce a class type field in class to 'remember' type
-See ClassTypeCapture
+
+See [ClassTypeCapture](https://github.com/werdnakof/MyProgrammingNotes/blob/master/src/generics/ClassTypeCapture.java)
 
 ### Generic Array ###
 
@@ -189,5 +190,5 @@ See CaptureConversion
 P. 515
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQyODc2NjUyNiwxNTI0NTIxMDc3XX0=
+eyJoaXN0b3J5IjpbLTEzMjYzNzU5NTAsMTUyNDUyMTA3N119
 -->
