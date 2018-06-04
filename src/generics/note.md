@@ -140,12 +140,10 @@ See [BasicBounds](https://github.com/werdnakof/MyProgrammingNotes/blob/master/sr
 See [CovariantArrays](https://github.com/werdnakof/MyProgrammingNotes/blob/master/src/generics/CovariantArrays.java):
 Unlike arrays, generics do not have built-in covariance. This is because arrays are completely defined in the language and can thus have both compile-time and runtime checks built in, but with generics, the compiler and runtime system cannot know what you want to do with your types and what the rules should be.
 
-See GenericsAndCovariance:
-After upcast, the list can’t even add an Apple that you just said would hold Apples.
-Yes, but the compiler doesn’t know that.
+See [GenericsAndCovariance](https://github.com/werdnakof/MyProgrammingNotes/blob/master/src/generics/GenericsAndCovariance.java):
+After upcast, the list can’t even add an Apple that you just said would hold Apples. The compiler doesn’t know that!
 
-A List<? extends Fruit> could legally point to a List<Orange>. Once you do this
-kind of "upcast," you lose the ability to pass anything in, even an Object.
+A List<? extends Fruit> could legally point to a List<Orange>. Once you do this kind of "upcast," you lose the ability to pass anything in, even an Object.
 
 On the other hand, if you call a method that returns Fruit, that’s safe because you know that
 anything in the List must at least be of type Fruit, so the compiler allows it.
@@ -183,5 +181,5 @@ See CaptureConversion
 P. 515
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk5ODAyMjE2NywxNTI0NTIxMDc3XX0=
+eyJoaXN0b3J5IjpbMzkxMDI0ODc3LDE1MjQ1MjEwNzddfQ==
 -->
