@@ -10,7 +10,7 @@ Features:
 Backend (PHP, MySQL, Docker, AWS)
 1. Managing content such as ticket descriptions, images, prices, etc
 	- Synced up with third party services via periodic API calls and cron job
-	- SQL tables de
+	- SQL tables design: try to avoid JOINs as often as possble and take advantage of caching
 2. Managing ticket purchase transactions
 	-  Entire transaction has to integrate with third party service. 
 	- States: **Reserved** -> **Confirmed** -> **Tickets-Sent**
@@ -21,8 +21,9 @@ Backend (PHP, MySQL, Docker, AWS)
 	- Decouple as much as possible to provide isolation during unit testing.
 	- Semi-test driven: business logics are written such that every method can be tested against all possible outcomes
 	- There is also integration with the Android app via web API, good API design practise taking into account minimizing JSON size and maximize speed. (trade off between 1 API call vs multiple)
-	-  
+
+Android 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgyMzQwNjU4NSwxMTYxNTI1MDQ4XX0=
+eyJoaXN0b3J5IjpbMTU5MDk0NDkyNywxMTYxNTI1MDQ4XX0=
 -->
