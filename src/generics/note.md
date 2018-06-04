@@ -81,7 +81,7 @@ For example, type annotations such as List<T> (unbounded) are erased to List, an
 
 The primary justification for erasure is the transition process from non generified code to generified code, and to incorporate generics into the language without breaking existing libraries. Erasure allows existing nongeneric client code to continue to be used without change, until clients are ready to rewrite code for generics. This is a noble motivation, because it doesn’t suddenly break all existing code.
 
-### erasure's removes type information...to a certain extent ###
+### erasure's removes type information...to a certain extent
 
 See ArrayMaker:
 Even though kind is stored as Class<T>, erasure means that it is actually just being stored
@@ -189,5 +189,5 @@ See CaptureConversion
 P. 515
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc5NDc4MzMyOSwxNTI0NTIxMDc3XX0=
+eyJoaXN0b3J5IjpbMTQyODc2NjUyNiwxNTI0NTIxMDc3XX0=
 -->
