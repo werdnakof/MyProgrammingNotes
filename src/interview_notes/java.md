@@ -1,13 +1,13 @@
 # Java Fundamentals
 
-JVM - Java Virtual Machine 
-- the JVM actually runs Java bytecode.
+JVM - **_Java Virtual Machine 
+- the JVM actually(JVM)_**: runs Java bytecode.
 
-JDK - Java Developer Kit 
-- the JDK is what you need to compile Java source code to bytecode.
+JDK - **_Java Developer Kit 
+- the JDK is what you need to(JDK)_**: compile Java source code to bytecode.
 
-JRE - Java Runtime Environment 
-- is what you need to run a Java program and contains a JVM, among other things.
+JRE - **_Java Runtime Environment 
+- is what you need to(JRE)_**: runs a Java program and contains a JVM, among other things.
 
 [What is the hierarchy of JVM, JDK, JRE, JIT?](https://stackoverflow.com/questions/17408363/what-is-the-hierarchy-of-jvm-jdk-jre-jit)
 
@@ -138,3 +138,6 @@ Heap : Storage area for Objects. (One per JVM instance)
 Java stack: Storage area for local variables, results of intermediate operations. (One per thread)
 Program Counter (PC) Register : Stores the address of the next instruction to be executed if the next instruction is native method then the value in pc register will be undefined. (One per thread)
 Native method stacks : Helps in executing native methods (methods written in languages other than Java). (One per thread)
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbLTkwNDA1NzYwMF19
+-->
