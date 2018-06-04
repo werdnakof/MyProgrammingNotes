@@ -1,12 +1,8 @@
 # Java Fundamentals
 [What is the hierarchy of JVM, JDK, JRE, JIT?](https://stackoverflow.com/questions/17408363/what-is-the-hierarchy-of-jvm-jdk-jre-jit)
 **_Java Virtual Machine  (JVM)_**: runs Java bytecode.
-
-JDK - **_Java Developer Kit 
-- the JDK is what you need to(JDK)_**: compile Java source code to bytecode.
-
-JRE - **_Java Runtime Environment 
-- is what you need to(JRE)_**: runs a Java program and contains a JVM, among other things.
+**_Java Developer Kit  (JDK)_**: compile Java source code to bytecode.
+**_Java Runtime Environment  (JRE)_**: runs a Java program and contains a JVM, among other things.
 
 ![](https://i.stack.imgur.com/eUqSJ.png)
 
@@ -14,9 +10,9 @@ JRE - **_Java Runtime Environment
 
 [another link](https://softwareengineering.stackexchange.com/questions/286712/compilation-to-bytecode-vs-machine-code)
 
-    The JVM (Java Virtual Machine) has an instruction set just like a real machine. 
+    The JVM has an instruction set just like a real machine. 
     
-    The name given to this instruction set is Java Bytecode. (described in the Java Virtual Machine Specification.) 
+    The name of instruction set is Java Bytecode. (described in the Java Virtual Machine Specification.) 
     
     Other languages are translated into a bytecode before execution, for example ruby and python. 
     Java's bytecode is at a fairly low level while python's is much more high level.
@@ -136,5 +132,5 @@ Java stack: Storage area for local variables, results of intermediate operations
 Program Counter (PC) Register : Stores the address of the next instruction to be executed if the next instruction is native method then the value in pc register will be undefined. (One per thread)
 Native method stacks : Helps in executing native methods (methods written in languages other than Java). (One per thread)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE3ODA4MTU0OCwtOTA0MDU3NjAwXX0=
+eyJoaXN0b3J5IjpbMTc3MDUwMjUzNCwtOTA0MDU3NjAwXX0=
 -->
