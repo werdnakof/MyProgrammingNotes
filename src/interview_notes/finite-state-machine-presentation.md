@@ -1,5 +1,7 @@
 FSM Presentation
 
+Intro
+
 - What is finite state machine?
 - A mathematical model of computation. 
 - It is an abstract machine
@@ -9,11 +11,15 @@ FSM Presentation
  - Example: locked door
 - Applications of FSM: Compiler, Regular Expressions, Artifical intelligence
 
+Goal
+
 - given the topic of finite automata  in computer science field is quite established, goal is not to carry out further research on FSM
 - Goal is to implement the theories such as finite automata conversions
 - and create the application which allows users to visualize FSM.
 - Normally described by a set mathematical notations
 - Can be described by state diagrams
+
+Work
 
 - create a design specification so that there is target to meet and it would constraint our deliverables.
 - create different possible solutions e.g. desktop vs web applications, programming languages, frameworks
@@ -25,5 +31,5 @@ FSM Presentation
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI3ODI3NDEyNl19
+eyJoaXN0b3J5IjpbMTM1NDkzNzMyOF19
 -->
