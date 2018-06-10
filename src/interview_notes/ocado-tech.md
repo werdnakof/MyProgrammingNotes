@@ -17,11 +17,17 @@
 	- Rent wise Hatfield and the  surrounding areas are cheaper and less hectic than London which is good for families.
 	- Some hi-tech projects forming, thus lots of experimenting can go on before settling on the right technology.
 
-Autonomy
-Trust
-Collaboration
-Learn Fast
-Craftsmanship
+**Trust** - the foundation of great teamwork is being able to depend on and support the people around you, knowing that you’re working towards a common goal.
+
+**Autonomy** - we encourage our team members to do everything they can to create autonomy for the people around them by sharing skills and information, so everyone can help drive our great products from development to done.
+
+**Craftsmanship** - we believe in creating high-quality products, knowing it will not only improve our customers’ experience, but save us time in the long term if it doesn’t need fixing or rewriting. We place great importance on the continued development of our team members’ skills, doing all we can to foster growth.
+
+**Collaboration** - at the heart of great tech work is strong creative collaboration. We believe the whole is greater than the sum of its parts and encourage group decision-making to reach the best outcomes.
+
+**Learn Fast** - derived from the term “fail fast”, we believe in an agile way of working with an emphasis on fast feedback loops, continuous improvement, and experimentation. We encourage everyone to try out new things and when experiments fail or succeed, we learn from it and share that learning.
+
+We know that top notch creative thinking can’t happen solidly throughout the working day and appreciate how short, focused breaks refocus the mind. That’s why we promote a relaxed working environment with a variety of different recreational activities available in our offices. Everything from table tennis in Krakow, to table football in Hatfield, to a console built from a Raspberry Pi in Barcelona, to name just a few.
 
 [How we redeveloped a key automation system in a 24/7 operation](https://www.ocadoengineering.com/how-we-redeveloped-a-key-system-in-a-24-7-operation/index.html)
 
@@ -33,5 +39,5 @@ Craftsmanship
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MzA5NjM1NTddfQ==
+eyJoaXN0b3J5IjpbMTM3ODMzMjUzMywtMTUzMDk2MzU1N119
 -->
