@@ -25,9 +25,13 @@ Craftsmanship
 
 [How we redeveloped a key automation system in a 24/7 operation](https://www.ocadoengineering.com/how-we-redeveloped-a-key-system-in-a-24-7-operation/index.html)
 
+[six-things-you-need-to-know-about-ocados-new-head-office](https://www.ocadoengineering.com/six-things-you-need-to-know-about-ocados-new-head-office/index.html)
+
+[six-skills-any-potential-ocado-engineer-needs](https://www.ocadoengineering.com/six-skills-any-potential-ocado-engineer-needs/index.html)
+
 
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc0MTI0MjAyMV19
+eyJoaXN0b3J5IjpbLTE1MzA5NjM1NTddfQ==
 -->
