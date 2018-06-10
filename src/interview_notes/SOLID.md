@@ -10,6 +10,33 @@ The OCP makes our code more reusable and less coupled. This way we can write new
 
 
 
+The classic example is given by the following pseudo-code declaration (implementations omitted):
+
+```
+class Rectangle {
+    int getHeight()
+    void setHeight(int value)
+    int getWidth()
+    void setWidth(int value)
+}
+
+class Square : Rectangle { }
+
+```
+
+Now we have a problem although the interface matches. The reason is that we have violated invariants stemming from the mathematical definition of squares and rectangles. The way getters and setters work, a  `Rectangle`  should satisfy the following invariant:
+
+```
+void invariant(Rectangle r) {
+    r.setHeight(200)
+    r.setWidth(100)
+    assert(r.getHeight() == 200 and r.getWidth() == 100)
+}
+
+```
+
+However, this invariant  _must_  be violated by a correct implementation of  `Square`, therefore it is not a valid substitute of  `Rectangle`.
+
 [Interface Segregation](https://ilclubdellesei.wordpress.com/2017/09/02/solid-principles-by-example-interface-segregation/)
 
 The ISP guides us to create many _small_ interfaces with coherent functionalities instead of a few _big_ interfaces with lots of different methods. When we apply the ISP, class and their dependencies communicate using focussed interfaces, minimising dependencies. Smaller interfaces are easier to implement, improving flexibility and the possibility of reuse.
@@ -22,5 +49,5 @@ The word Inversion comes from the fact that both the high-level and the low-leve
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NjcwNjkwOTldfQ==
+eyJoaXN0b3J5IjpbLTU2MTQyNTkzMF19
 -->
