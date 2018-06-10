@@ -35,9 +35,8 @@ We know that top notch creative thinking can’t happen solidly throughout the w
 
 [six-skills-any-potential-ocado-engineer-needs](https://www.ocadoengineering.com/six-skills-any-potential-ocado-engineer-needs/index.html)
 
+[stackshare](https://stackshare.io/ocado-technology/ocado-technology)
 
-
-> Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM3ODMzMjUzMywtMTUzMDk2MzU1N119
+eyJoaXN0b3J5IjpbMjg0NjQxNTM1LC0xNTMwOTYzNTU3XX0=
 -->
