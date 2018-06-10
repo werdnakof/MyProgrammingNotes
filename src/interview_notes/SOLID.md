@@ -8,7 +8,7 @@ The OCP makes our code more reusable and less coupled. This way we can write new
 
 [Liskov Substitution ](https://ilclubdellesei.wordpress.com/2017/08/17/solid-principles-by-examples-liskov-substitution-principle/)
 
-
+TLTR: Model your classes based on behaviours not on properties; model your data based on properties and not on behaviours. If it behaves like a duck, it's certainly a bird.
 
 The classic example is given by the following pseudo-code declaration (implementations omitted):
 
@@ -49,5 +49,5 @@ The word Inversion comes from the fact that both the high-level and the low-leve
 
 > Written with [StackEdit](https://stackedit.io/).
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU2MTQyNTkzMF19
+eyJoaXN0b3J5IjpbMjExMzU1ODA4NV19
 -->
